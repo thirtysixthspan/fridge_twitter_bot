@@ -1,0 +1,11 @@
+sleep_in_seconds: 60
+recent_tweets: recent_tweets.yaml
+bitly_username: your_username
+bitly_api_key: your_key
+fridge_email: your_email
+fridge_password: your_password
+fridge_id: your_numeric_fridge_group_id
+token: twitter_token
+secret: twitter_secret_key
+atoken: twitter_access_token
+asecret: twitter_access_secret_key

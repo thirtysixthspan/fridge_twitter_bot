@@ -7,7 +7,7 @@ require 'bitly'
 
 class String
   def no_html
-    self.gsub(/<.*?>/, " ").gsub(/[\r\n\t]/, "").gsub(/\s{2}+/, "").gsub(/^\s*/,"").gsub(/\s*$/,"")
+    self.gsub(/<.*?>/, " ").gsub(/[\r\n\t]/, " ").gsub(/\s{2}+/, " ").gsub(/^\s*/,"").gsub(/\s*$/,"")
   end
 end
 
